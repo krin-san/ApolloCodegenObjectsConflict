@@ -1,0 +1,9 @@
+query ExampleQuery($id: ID!) {
+  oldLiveStream(id: $id) {
+    id
+  }
+
+  newLiveStream(id: $id) {
+    id
+  }
+}

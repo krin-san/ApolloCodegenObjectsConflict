@@ -1,0 +1,12 @@
+type Livestream {
+  id: ID!
+}
+
+type LiveStream {
+  id: ID!
+}
+
+type Query {
+  oldLiveStream(id: ID!): Livestream
+  newLiveStream(id: ID!): LiveStream
+}

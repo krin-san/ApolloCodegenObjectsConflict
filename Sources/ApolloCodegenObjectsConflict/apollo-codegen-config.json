@@ -1,0 +1,28 @@
+{
+  "schemaNamespace": "GraphQLAPI",
+  "input": {
+    "operationSearchPaths": [
+      "input/**/*.graphql"
+    ],
+    "schemaSearchPaths": [
+      "schema.sdl"
+    ]
+  },
+  "output": {
+    "schemaTypes": {
+      "path": "output",
+      "moduleType": {
+        "embeddedInTarget": {
+          "name": "GraphQLAPI",
+          "accessModifier": "internal"
+        }
+      }
+    },
+    "operations": {
+      "inSchemaModule": {}
+    },
+    "testMocks": {
+      "none": {}
+    }
+  }
+}
